@@ -1,0 +1,20 @@
+.corpo {
+    background: var(--navy);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal {
+    background: var(--white);
+    height: 800px;
+    width: 450px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.3);
+}
