@@ -1,0 +1,52 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.logo {
+    width: 157px;
+    height: 48px;
+}
+
+.voltar, .camera {
+    cursor: pointer;
+}
+
+.container_principal {
+    margin-bottom: 220px ;
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.texto_mes {
+    color: var(--black);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.numeros, .dias {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dias {
+    border: 1px solid var(--navy);
+}
+
+.dias td, .numeros td {
+    padding: 5px;
+}
+
+.numeros {
+    border: 1px solid var(--green);
+}
+
+.hoje {
+    background: var(--green);
+}
