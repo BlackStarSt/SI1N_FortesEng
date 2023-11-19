@@ -19,24 +19,25 @@
         <div class="container_icon">
             <img src="./assets/img/icon.png" class="icon">
         </div>
-        <div class="container_login">
+        <form class="container_login">
             <div class="login">
                 <input type="email" class="input" placeholder="E-mail"
                 onfocus="this.placeholder=''"
-                onblur="this.placeholder='E-mail'" required>
+                onblur="this.placeholder='E-mail'" id="email" required>
                 <label class="label">E-mail</label>
             </div>
             <div class="login">
-                <input type="text" class="input" placeholder="Senha"
+                <input type="password" class="input" placeholder="Senha"
                 onfocus="this.placeholder=''"
-                onblur="this.placeholder='Senha'" required>
+                onblur="this.placeholder='Senha'" id="senha" required>
                 <label class="label">Senha</label>
             </div>
-        </div>
-        <div class="container_button">
-            <button class="button">Login</button>
-            <p><a href="#" class="link">Esqueceu sua senha?</a></p>
-        </div>
+            <div class="container_button">
+                <button class="button" id="btn">Login</button>
+                <p><a href="#" class="link">Esqueceu sua senha?</a></p>
+            </div>
+        </form>
     </main>
 </body>
+<script src="./assets/js/login.js"></script>
 </html>

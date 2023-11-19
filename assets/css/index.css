@@ -8,7 +8,7 @@
 }
 
 .container_login {
-    height: 160px;
+    height: 240px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -52,6 +52,10 @@
 .input:focus + .label,
 .input:not(:placeholder-shown) + .label {
     z-index: 2;
+}
+
+.erro {
+    border-bottom: 1px var(--red) solid;
 }
 
 .container_button {
