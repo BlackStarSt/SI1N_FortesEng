@@ -1,6 +1,5 @@
 const email = document.getElementById('email');
 const senha = document.getElementById('senha');
-const btn = document.getElementById('btn');
 
 email.addEventListener('blur', (e) => {
     valida(e.target);
@@ -30,7 +29,6 @@ function valida(input) {
     } else if (regex.test(input.value) == false) {
         mensagem = '';  
         input.classList.remove('erro'); 
-    } else if (btn.click) {
         window.location.replace('./qrcode.html');
     }
     input.setCustomValidity(mensagem);
