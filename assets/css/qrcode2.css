@@ -1,0 +1,42 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.logo {
+    width: 157px;
+    height: 48px;
+}
+
+.config {
+    display: none;
+}
+
+.voltar, .camera {
+    cursor: pointer;
+}
+
+.container_principal {
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 140px;
+}
+
+.titulo {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fira);
+}
+
+.container_imagem {
+    width: 290px;
+    height: 326px;
+    background: var(--gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
