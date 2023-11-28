@@ -1,0 +1,85 @@
+.corpo {
+    font-family: var(--Roboto);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.logo {
+    width: 157px;
+    height: 48px;
+}
+
+.voltar, .camera {
+    cursor: pointer;
+}
+
+.config {
+    display: none;
+}
+
+.corpo {
+    font-size: 24px;
+}
+
+.titulo_page {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.container_principal {
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.input_label {
+   height: 80px;
+   display: flex;
+   flex-direction: column;
+   font-family: var(--Fira);
+   font-size: 16px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.input {
+    height: 40px;
+    width: 260px;
+    padding: 0 15px;
+    border: none;
+    border-bottom: 1px var(--navy) solid;
+    border-radius: 30px;
+    background: var(--gray);
+}
+
+.label {
+    font-size: 20px;
+}
+
+.container_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font: var(--inter);
+}
+
+.button {
+    width: 195px;
+    height: 40px;
+    background: var(--green);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
