@@ -1,0 +1,71 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.logo {
+    width: 157px;
+    height: 48px;
+}
+
+.voltar, .camera {
+    cursor: pointer;
+}
+
+.config {
+    display: none;
+}
+
+.titulo_page {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.container_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+
+.tabela_mes {
+    height: 516px;
+    width: 336px;
+    display: flex;
+    flex-direction: column;
+}
+
+thead, tbody {
+    display: flex;
+}
+
+thead {
+    border: 1px solid var(--green);
+}
+
+tbody > tr {
+    border: 1px solid var(--navy);
+}
+
+tr, td {
+    text-align: center;
+    align-items: center;
+}
+
+.itens {
+    display: flex;
+    flex-direction: row;;
+}
+
+.itens > td {
+    width: 84px;
+}
+
+.dias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 84px;
+}
