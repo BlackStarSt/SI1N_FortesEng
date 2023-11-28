@@ -1,0 +1,49 @@
+.corpo {
+    font-family: var(--Roboto);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.logo {
+    width: 157px;
+    height: 48px;
+}
+
+.voltar, .camera {
+    cursor: pointer;
+}
+
+.config {
+    display: none;
+}
+
+.titulo_page {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.container_principal {
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 0 180px;
+}
+
+.titulo {
+    font-size: 24px;
+}
+
+.input {
+    width: 280px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--gray);
+    padding: 0 10px;
+}
