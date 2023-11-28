@@ -1,0 +1,58 @@
+.corpo {
+    font-family: var(--Roboto);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.logo {
+    width: 157px;
+    height: 48px;
+}
+
+.voltar, .camera {
+    cursor: pointer;
+}
+
+.config {
+    display: none;
+}
+
+.container_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_page, .data, .titulo, li {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.refeicao {
+    height: 214px;
+    width: 356px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.titulo {
+    border-bottom: 1px solid var(--black);
+}
+
+.lista {
+    padding: 0 30px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li {
+    list-style-image: url('../img/square.png');
+}
