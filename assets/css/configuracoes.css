@@ -1,0 +1,83 @@
+.corpo {
+    font-family: var(--Roboto);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.logo {
+    width: 157px;
+    height: 48px;
+}
+
+.voltar, .camera {
+    cursor: pointer;
+}
+
+.config {
+    display: none;
+}
+
+.titulo_page {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.container_principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 643px;
+}
+
+.container_perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil {
+    width: 175px;
+    height: 175px;
+}
+
+.btn {
+    border-radius: 20px;
+    background: var(--navy);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);   
+    color: var(--white);
+    width: 205px;
+    height: 27px;
+    border: none;
+}
+
+.funcao {
+    height: 85px;
+    border-top: 2px solid var(--black);
+    width: 410px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px
+}
+
+.container_funcoes:nth-last-child(2) {
+    border-bottom: 2px solid var(--black);
+}
+
+.btn_fim {
+    width: 200px;
+    height: 32px;
+    background: var(--green);
+    color: var(--white);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);   
+    border-radius: 30px;
+    border: none;
+    font-family: var(--Inter);
+    font-weight: 700;
+}
