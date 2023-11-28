@@ -69,4 +69,10 @@
     background: var(--green);
     border: none;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
 }
